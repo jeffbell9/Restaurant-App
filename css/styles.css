@@ -1,0 +1,99 @@
+/* Main */
+
+@font-face {
+	font-family: menuFont;
+	src: url('../fonts/cfmarieeve.ttf');
+}
+
+body {
+	background-image: url('../img/chalkboard_texture.jpg');
+	color: white;
+	font-family: menuFont;
+}
+
+/* Menu */
+
+#tower-right img {
+	height: 569px;
+	-webkit-filter: invert(80%);
+	filter: invert(80%);
+	margin: 0 auto;
+}
+
+#name {
+	display: inline-block;
+}
+
+#scroll img {
+	max-width: 100%;
+}
+
+#scroll {
+	width: 200px;
+	-webkit-filter: invert(50%);
+	filter: invert(50%);
+	margin: 0 auto;
+}
+
+#menu-page {
+	z-index: 1;
+}
+
+/* Wine List */
+
+#wine {
+	margin-top: 50px;
+}
+
+.wine-section {
+	margin-top: 60px;
+}
+
+/* Both */
+
+ul {
+	font-size: 1.5em;
+}
+
+.menu-section {
+	margin-top: 40px;
+}
+
+#menu-header {
+	text-align: center;
+	margin-top: 10px;
+}
+
+a {
+	color: inherit;
+}
+
+a:active {
+	outline: none;
+}
+
+a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+#menu-page a {
+	text-decoration: none;
+}
+
+#tower-left img,
+#tower-left-wine img {
+	height: 569px;
+	-webkit-filter: invert(80%);
+	filter: invert(80%);
+	margin: 0 auto;
+}
+
+#left,
+#left-wine {
+	margin-top: 85px;
+}
+
+#right {
+	margin-top: 125px;
+}
