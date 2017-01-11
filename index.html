@@ -11,8 +11,15 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
 	</script>
 	<script src="scripts/pics.js"></script>
+	<script type="text/javascript">
+    $(window).load(function () {document.getElementById("hideAll").style.display = "none"});
+	</script>
 </head>
 <body ng-app="restaurantApp">
+	<div id="hideAll"></div>
+	<script type="text/javascript">
+   document.getElementById("hideAll").style.display = "block";
+	</script> 
 	<div class="container" ng-controller="mainCtrl">
 		<!-- Menu -->
 		<div class="menu" ng-hide="wines === true">
