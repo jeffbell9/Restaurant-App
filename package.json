@@ -1,0 +1,25 @@
+{
+  "name": "restaurant-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.10.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffbell9/Restaurant-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffbell9/Restaurant-App/issues"
+  },
+  "homepage": "https://github.com/jeffbell9/Restaurant-App#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
