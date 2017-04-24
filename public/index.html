@@ -22,11 +22,8 @@
 	</script> 
 	<div class="container" ng-controller="mainCtrl">
 		<!-- Menu -->
-		<div class="menu" ng-hide="wines === true">
+		<div class="row">
 			<div id="left" class="col-md-4">
-				<div>
-					<a href="" ng-click="wines = true"><h4 id="wlist" class="text-center">Wine List</h4></a>
-				</div>
 				<div id="tower-left" class="hidden-sm hidden-xs"></div>
 			</div>
 			<div class="col-md-4 text-center">
@@ -54,22 +51,14 @@
 					</ul> <!-- /Desserts -->
 				</div>
 			</div>
-			<div id="right" class="col-md-4">
-				<div id="tower-right" class="hidden-sm hidden-xs"></div>
-			</div>
 		</div><!-- /Menu -->
+		<div id="scroll-two"></div>
 		<!-- Wine List -->
-		<div class="wineList" ng-show="wines === true">
-			<div id="left-wine" class="col-md-4">
-				<div>
-					<a href="index.html"><h4 id="menu-page" class="text-center">Menu</h4></a>
-				</div>
-				<div id="tower-left-wine" class="hidden-sm hidden-xs"></div>
-			</div>
-			<div id="wine" class="col-md-7 text-center">
+		<div class="row">
+			<div id="wine" class="col-md-12 text-center">
 				<h1 id="wine-list">Wine List</h1>
 				<!-- Sparkling -->
-				<u><h2 class="wine-section">Sparkling</h2></u>
+				<u><h2 class="wine-section-first">Sparkling</h2></u>
 				<div  ng-repeat="sparkle in sparkling">
 					<ul class="list-unstyled">
 						<li>{{sparkle.item}}&nbsp&nbsp&nbsp&nbsp{{sparkle.pricePerGlass}}/{{sparkle.pricePerBottle}}</li>
